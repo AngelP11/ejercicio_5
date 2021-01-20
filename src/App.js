@@ -138,7 +138,7 @@ function App() {
     <div className="container">
       <form className="app_form">
         <label htmlFor="password">Password</label>
-        <input onChange={handlePassword} type="text" id="password" />
+        <input onChange={handlePassword} type="password" id="password" />
         <button>Enviar</button>
       </form>
 
